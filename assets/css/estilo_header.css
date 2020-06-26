@@ -1,0 +1,115 @@
+.principal_header {
+    width: 100%;
+    /* Establecemos que el header abarque el 100% del documento */
+    overflow: hidden;
+    /* Eliminamos errores de float */
+    background-image: url("../img/top_visual.png");
+    margin-bottom: 20px;
+    background-size: cover;
+    height: 100%;
+}
+
+.card {
+    border: 3px solid rgb(255, 173, 251);
+}
+
+.wrapper {
+    width: 90%;
+    /* Establecemos que el ancho sera del 90% */
+    max-width: 100%;
+    /* Aqui le decimos que el ancho máximo sera de 1000px */
+    margin: auto;
+    /* Centramos los elementos */
+    overflow: hidden;
+    /* Eliminamos errores de float */
+    /* background-image: url("../img/top_visual.png"); */
+}
+
+.principal_header .logo {
+    color: red;
+    font-size: 50px;
+    line-height: 200px;
+    float: left;
+}
+
+.principal_header nav {
+    float: right;
+    line-height: 35px;
+}
+
+.principal_header nav a {
+    display: inline-block;
+    color: rgb(250, 11, 11);
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.principal_header nav a:hover {
+    background: #F2B0C2;
+    border-radius: 50px;
+}
+
+#header2 nav a:hover {
+    background: #F2B0C2;
+    border-radius: 50px;
+}
+
+.header2 {
+    position: fixed;
+text-align: right;
+    height: 100px;
+}
+
+.header2 .logo {
+    line-height: 100px;
+    font-size: 30px;
+}
+
+.header2 nav {
+    line-height: 100px;
+}
+
+@media screen and (max-width: 950px) {
+    .principal_header .logo,
+    .principal_header nav {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        /*Centramos el menu y el logotipo*/
+        line-height: 100px;
+    }
+    .header2 {
+        height: auto;
+    }
+    .header2 .logo,
+    .header2 nav {
+        line-height: 50px;
+    }
+}
+
+
+/********************************/
+
+.banner:hover {
+    color: rgba(44, 62, 80, 1.0);
+}
+
+.main-header {
+    position: relative;
+    background: url(../img/background2.jpg);
+    /* background-size: cover;  */
+    background-size: auto;
+    min-height: 1000px;
+    height: 50%;
+    width: 100%;
+}
+
+/* #header2{
+    background-image: url('assets/img/top_header.png');
+} */

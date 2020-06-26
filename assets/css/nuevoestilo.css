@@ -1,0 +1,349 @@
+﻿/* .main-header{
+	width: 100%;
+	height: 100%;
+	background: url(../img/background2.jpg);
+	overflow: hidden;
+  }
+ 
+  
+  .main-header img{
+	width: 100%;
+	height: auto;
+  }
+  @supports(object-fit: cover){
+	  .main-header img{
+		height: 100%;
+		object-fit: cover;
+		object-position: center center;
+	  }
+  } */
+
+
+/* .background-overlay{
+	position: relative;
+	background: rgba(224, 86, 253,.7);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+} */
+
+.info {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.container-parrafo {
+    font-size: 25px;
+    padding: 3%
+}
+
+#texto_footer {
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(242, 211, 176);
+}
+
+footer .redes a {
+    padding: 8px 6px;
+    font-size: 35px;
+    text-decoration-color: white;
+    color: rgb(255, 255, 255);
+}
+
+footer .redes .twitter:hover {
+    transform: scale(1.5, 1.5);
+    color: rgb(192, 228, 231);
+}
+
+footer .redes .facebook:hover {
+    transform: scale(1.5, 1.5);
+    color: rgb(250, 55, 120);
+}
+
+footer .redes .tarjeta:hover {
+    transform: scale(1.5, 1.5);
+    color: rgb(255, 198, 92);
+}
+
+footer .redes .instagram:hover {
+    transform: scale(1.5, 1.5);
+    color: rgb(233, 196, 233);
+}
+
+
+
+
+/******* imagen de fondo que se repite por toda la pagina*/
+
+ #fondo {
+    background-image: url("../img/bg.jpg");
+}
+
+
+/****carrusel*/
+
+
+/* .p-carousel  .p-carousel-recruit-btn {
+	display: inline-block;
+	position: absolute !important;
+	z-index: 10;
+	top: auto !important;
+	left: 74px !important;
+	bottom: 53px !important;
+  } */
+
+.carousel img {
+    width: 100%;
+    vertical-align: auto;
+}
+
+.carousel {
+    margin: auto;
+    width: 85%;
+    border: 6px solid #FFEFA8;
+    border-radius: 5px;
+}
+
+.Container-carrousel {
+    height: 80%;
+}
+
+
+/***conf de la otra pag****/
+
+
+/* .Container-carrousel img{
+    width: 50%;
+    vertical-align: top;
+}
+
+.Container-carrousel{
+    margin: left;
+    width: 50%;
+    border: 4px solid #fff;
+	border-radius: 5px;
+	/* float: right;} */
+
+.pie {
+    clear: both;
+}
+
+
+/******pruebas****/
+
+
+/* .imagestext{
+	width: 90%;
+	float: left;
+	overflow: hidden; 
+	height: auto;
+    margin: 0px;
+    padding: 0px;
+	border: none;
+	background: none;
+    min-height: auto;
+}
+.imagestext img{
+	width: auto;
+	height: auto;
+} */
+
+
+/* #topindex #mainContents #mainContentsInner #headtext {
+    width: 90%;
+    background: none;
+    min-height: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+#index2 #mainContents {
+    width: 90%;
+    float: right;
+    height: auto;
+    position: relative;
+}
+#index2 #mainContents {
+	width: 70%;
+     float: left; 
+     overflow: hidden; 
+} */
+
+
+/****Para que no se salga la imagen*/
+
+#caja {
+    width: 100%;
+    height: 90%;
+}
+
+#caja img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/****Para la clase plantilla 2**/
+
+#titulo_we {
+    float: right;
+    color: white;
+}
+
+#parrafo1 {
+    padding-top: 15%;
+}
+
+#parrafo1,
+#parrafo2 {
+    float: left;
+}
+
+
+/*******************Medios de pago***/
+
+.formas_pago ul li img {
+    height: 50px;
+    width: auto;
+}
+
+.faq {
+    height: 2571px;
+}
+
+a.fleft {
+    float: left;
+}
+
+
+/* .content-search {
+					left: 990px !important;
+					height: auto !important;
+					width: 100%;
+					overflow: hidden;
+					color: black;
+					z-index: 99;
+					position: absolute;
+					width: 970px;
+				} */
+
+#outerdiv {
+    width: 900px;
+}
+
+.formas_pago h2 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 23px;
+}
+
+.formas_pago ul li {
+    float: none !important;
+    display: block !important;
+    border-bottom: 1px dashed rgb(255, 253, 253) !important;
+    padding: 20px 0;
+}
+
+.formas_pago ul li span {
+    color: black !important;
+    font-size: 14px;
+}
+
+.formas_pago ul li img {
+    height: 50px;
+    width: auto;
+}
+
+.formas_pago ul li .visa-logo {
+    height: 26px;
+}
+
+.formas_pago ul li .amex-logo {
+    height: 58px;
+    margin-top: -2px;
+}
+
+.formas_pago ul li .naranja-logo {
+    height: 58px;
+    margin-top: 1px;
+}
+
+/* body {
+    padding-bottom: 70px;
+} */
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+/* .pie {
+    clear: both;
+} */
+
+.princcosos {
+    position: relative;
+}
+
+.img1 {
+    /* position: absolute;
+    left: 40px;
+    top: 40px; */
+    float: center;
+}
+
+.img2 {
+    /* position: absolute; */
+    /* left: 80px;
+    top: 90px; */
+    float: left;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-right: 0%;
+}
+
+div.container.header {
+    position: relative;
+}
+
+div.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+.container {
+    margin-right: auto; 
+    margin-left: auto;
+    padding-right: 20;
+    padding-left: 15px; 
+    width: 100%; 
+}
+
+body {
+    background: #f6f6f6;
+    color: #000;
+    font-weight: 300;
+    line-height: 20px;
+    font-size: 14px;
+    padding-top: 0;
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    display: block;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+
